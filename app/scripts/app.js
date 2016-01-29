@@ -31,11 +31,6 @@ angular
                 templateUrl: 'views/about.html',
                 controller: 'AboutCtrl',
             })
-            .state('personality', {
-                url: '/personality',
-                templateUrl: 'views/personality.html',
-                controller: 'MainCtrl',
-            })
             .state('cv', {
                 url: '/cv',
                 templateUrl: 'views/cv.html',
@@ -44,6 +39,11 @@ angular
             .state('achievements', {
                 url: '/achievements',
                 templateUrl: 'views/achievements.html',
+                controller: 'MainCtrl',
+            })
+            .state('interests', {
+                url: '/interests',
+                templateUrl: 'views/interests.html',
                 controller: 'MainCtrl',
             })
             .state('extra', {

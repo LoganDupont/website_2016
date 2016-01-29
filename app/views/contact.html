@@ -1,25 +1,26 @@
 <div class="contact-container">
     <div class="container main-content bg-white-opac ">
         <h1>Contact</h1>
+        <p>Als u meer informatie wenst, kan u mij steeds via onderstaand contactformulier bereiken. Ik contacteer u dan zo snel mogelijk terug!</p>
         <form id="contactForm" name="contact_form" ng-submit="Send()" novalidate>
             <fieldset class="form-group">
-                <label for="firstname">Voornaam</label>
-                <input type="text" class="form-control" id="firstname" placeholder="Geef uw voornaam in">
-            </fieldset>
-            <fieldset class="form-group">
-                <label for="name">Naam</label>
+                <label for="name">Naam (verplicht)</label>
                 <input type="text" class="form-control" id="name" placeholder="Geef uw naam in">
             </fieldset>
             <fieldset class="form-group">
-                <label for="emailAdress">Email</label>
+                <label for="emailAdress">Email (verplicht)</label>
                 <input type="email" class="form-control" id="emailAdress" placeholder="Geef uw e-mailadres in">
+            </fieldset>
+            <fieldset class="form-group">
+                <label for="phone">Telefoon</label>
+                <input type="text" class="form-control" id="phone" placeholder="Geef uw telefoonnummer in">
             </fieldset>
             <fieldset class="form-group">
                 <label for="subject">Onderwerp</label>
                 <input type="text" class="form-control" id="subject" placeholder="Geef uw onderwerp in">
             </fieldset>
             <fieldset class="form-group">
-                <label for="content">Inhoud</label>
+                <label for="content">Uw Bericht (verplicht)</label>
                 <textarea class="form-control" id="content" rows="3"></textarea>
             </fieldset>
             <button type="submit" class="btn btn-primary">Verzend</button>
