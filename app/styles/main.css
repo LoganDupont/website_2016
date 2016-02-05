@@ -90,7 +90,6 @@ body {
 
 .layout{
    min-height:100%;
-   height: 100%;
 }
 
 .navbar{
@@ -166,6 +165,20 @@ body {
   background-position: center;
   min-height: 100%;
   width: 100%;
+}
+
+#foto-left{
+    max-width: 200px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+#foto-right{
+    max-width: 200px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
 }
 
 /* CV */
@@ -251,3 +264,14 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.main-content h2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-content h3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
