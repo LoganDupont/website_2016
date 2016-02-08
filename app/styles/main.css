@@ -263,6 +263,7 @@ body {
 .main-content p{
     margin-left: 10px;
     margin-right: 10px;
+    text-align: justify;
 }
 
 .main-content h2{
@@ -273,5 +274,12 @@ body {
 .main-content h3{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.table > thead > tr > th, .table > tbody > tr > 
+th, .table > tfoot > tr > th, .table > thead > tr 
+> td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top-color: lightgrey;
+    width: 50%
 }
 
