@@ -54,9 +54,6 @@ angular
             .state('contact', {
                 url: '/contact',
                 templateUrl: 'views/contact.html',
-                controller: 'MainCtrl',
-            });                
+                controller: 'ContactCtrl',
+            });
     });
-
-
-  
